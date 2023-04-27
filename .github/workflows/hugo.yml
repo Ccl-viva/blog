@@ -24,7 +24,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: cd ~
+        run: cd ~\
             hugo --minify
 
       - name: Deploy
